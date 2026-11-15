@@ -1,0 +1,4 @@
+# Cloudflare Pages SPA fallback:
+# any path that doesn't match a static file serves the Angular app,
+# so client-side routes don't 404 on refresh or direct links.
+/* /index.html 200
