@@ -1,8 +1,12 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { Logo } from './shared/ui/logo/logo';
 
 @Component({
-  imports: [RouterOutlet],
+  imports: [
+    RouterOutlet,
+    Logo
+  ],
   selector: 'app-root',
   styleUrl: './app.scss',
   templateUrl: './app.html',
